@@ -1,0 +1,6 @@
+framework module Pods_SRM_SP_SRM_SPUITests {
+  umbrella header "Pods-SRM SP-SRM SPUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

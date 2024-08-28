@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "429590792_7329569083802212_3339064063494423076_n-Photoroom.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "429590792_7329569083802212_3339064063494423076_n-Photoroom 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "429590792_7329569083802212_3339064063494423076_n-Photoroom 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

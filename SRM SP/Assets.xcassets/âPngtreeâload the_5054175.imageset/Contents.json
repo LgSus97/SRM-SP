@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "âPngtreeâload the_5054175.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "âPngtreeâload the_5054175 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "âPngtreeâload the_5054175 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
