@@ -6,7 +6,8 @@
 //
 
 import UIKit
-import Charts
+import DGCharts
+
 
 class PieChartGraphViewController: UIViewController {
 

@@ -1,5 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-SRM SP-SRM SPUITests/Pods-SRM SP-SRM SPUITests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
-${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework
-${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

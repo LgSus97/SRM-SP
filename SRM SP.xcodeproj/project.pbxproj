@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		03E971312C8005EA0004DFEF /* PieChatGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E971302C8005EA0004DFEF /* PieChatGraphViewController.swift */; };
+		03E971342C801FCD0004DFEF /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 03E971332C801FCD0004DFEF /* DGCharts */; };
+		03E971362C801FCD0004DFEF /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 03E971352C801FCD0004DFEF /* DGChartsDynamic */; };
 		2A6B089E2C7EECA700228122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6B089D2C7EECA700228122 /* AppDelegate.swift */; };
 		2A6B08A02C7EECA700228122 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6B089F2C7EECA700228122 /* SceneDelegate.swift */; };
 		2A6B08A22C7EECA700228122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6B08A12C7EECA700228122 /* ViewController.swift */; };
@@ -18,9 +20,6 @@
 		2A6B08BF2C7EECAB00228122 /* SRM_SPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6B08BE2C7EECAB00228122 /* SRM_SPUITests.swift */; };
 		2A6B08C12C7EECAB00228122 /* SRM_SPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6B08C02C7EECAB00228122 /* SRM_SPUITestsLaunchTests.swift */; };
 		2ADD78C32C7FE04D0036B4FB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD78C22C7FE04D0036B4FB /* LoginViewController.swift */; };
-		4D63905C79E0FEBC01D292C2 /* Pods_SRM_SPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259654102B9E6D13958D623 /* Pods_SRM_SPTests.framework */; };
-		60E7B1146693AE5D07ADDA50 /* Pods_SRM_SP_SRM_SPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31D3287B73FBA64D5017BC9 /* Pods_SRM_SP_SRM_SPUITests.framework */; };
-		93F0BC846B8D8F1082446314 /* Pods_SRM_SP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AF3167B9FD9A68C802F753 /* Pods_SRM_SP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		03E971302C8005EA0004DFEF /* PieChatGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChatGraphViewController.swift; sourceTree = "<group>"; };
-		1259654102B9E6D13958D623 /* Pods_SRM_SPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRM_SPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6B089A2C7EECA700228122 /* SRM SP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SRM SP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6B089D2C7EECA700228122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A6B089F2C7EECA700228122 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,14 +55,6 @@
 		2A6B08BE2C7EECAB00228122 /* SRM_SPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRM_SPUITests.swift; sourceTree = "<group>"; };
 		2A6B08C02C7EECAB00228122 /* SRM_SPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRM_SPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2ADD78C22C7FE04D0036B4FB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		437F94FB1F31D98EB2BC8438 /* Pods-SRM SP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRM SP.release.xcconfig"; path = "Target Support Files/Pods-SRM SP/Pods-SRM SP.release.xcconfig"; sourceTree = "<group>"; };
-		63AF3167B9FD9A68C802F753 /* Pods_SRM_SP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRM_SP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8936721FBECB0537026EE7A3 /* Pods-SRM SPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRM SPTests.release.xcconfig"; path = "Target Support Files/Pods-SRM SPTests/Pods-SRM SPTests.release.xcconfig"; sourceTree = "<group>"; };
-		8D2730B46E0E80E7ED40CE32 /* Pods-SRM SP-SRM SPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRM SP-SRM SPUITests.release.xcconfig"; path = "Target Support Files/Pods-SRM SP-SRM SPUITests/Pods-SRM SP-SRM SPUITests.release.xcconfig"; sourceTree = "<group>"; };
-		BF57D1CC3C920D5A7310565E /* Pods-SRM SPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRM SPTests.debug.xcconfig"; path = "Target Support Files/Pods-SRM SPTests/Pods-SRM SPTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D31D3287B73FBA64D5017BC9 /* Pods_SRM_SP_SRM_SPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRM_SP_SRM_SPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1F99533B8D92B97C8B75E78 /* Pods-SRM SP-SRM SPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRM SP-SRM SPUITests.debug.xcconfig"; path = "Target Support Files/Pods-SRM SP-SRM SPUITests/Pods-SRM SP-SRM SPUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E72C73D8A786D763F1EA331A /* Pods-SRM SP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRM SP.debug.xcconfig"; path = "Target Support Files/Pods-SRM SP/Pods-SRM SP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F0BC846B8D8F1082446314 /* Pods_SRM_SP.framework in Frameworks */,
+				03E971362C801FCD0004DFEF /* DGChartsDynamic in Frameworks */,
+				03E971342C801FCD0004DFEF /* DGCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D63905C79E0FEBC01D292C2 /* Pods_SRM_SPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60E7B1146693AE5D07ADDA50 /* Pods_SRM_SP_SRM_SPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,8 +116,6 @@
 				2A6B08B32C7EECAB00228122 /* SRM SPTests */,
 				2A6B08BD2C7EECAB00228122 /* SRM SPUITests */,
 				2A6B089B2C7EECA700228122 /* Products */,
-				EE7426C99F431C1F8AC7B85A /* Pods */,
-				F0B16A0BCB07DB2135FA60F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,30 +161,6 @@
 			path = "SRM SPUITests";
 			sourceTree = "<group>";
 		};
-		EE7426C99F431C1F8AC7B85A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E72C73D8A786D763F1EA331A /* Pods-SRM SP.debug.xcconfig */,
-				437F94FB1F31D98EB2BC8438 /* Pods-SRM SP.release.xcconfig */,
-				E1F99533B8D92B97C8B75E78 /* Pods-SRM SP-SRM SPUITests.debug.xcconfig */,
-				8D2730B46E0E80E7ED40CE32 /* Pods-SRM SP-SRM SPUITests.release.xcconfig */,
-				BF57D1CC3C920D5A7310565E /* Pods-SRM SPTests.debug.xcconfig */,
-				8936721FBECB0537026EE7A3 /* Pods-SRM SPTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		F0B16A0BCB07DB2135FA60F3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				63AF3167B9FD9A68C802F753 /* Pods_SRM_SP.framework */,
-				D31D3287B73FBA64D5017BC9 /* Pods_SRM_SP_SRM_SPUITests.framework */,
-				1259654102B9E6D13958D623 /* Pods_SRM_SPTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,17 +168,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A6B08C42C7EECAB00228122 /* Build configuration list for PBXNativeTarget "SRM SP" */;
 			buildPhases = (
-				40D240BE45B37E548FF5FAED /* [CP] Check Pods Manifest.lock */,
 				2A6B08962C7EECA700228122 /* Sources */,
 				2A6B08972C7EECA700228122 /* Frameworks */,
 				2A6B08982C7EECA700228122 /* Resources */,
-				3178A04C86A25C114E49CE1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SRM SP";
+			packageProductDependencies = (
+				03E971332C801FCD0004DFEF /* DGCharts */,
+				03E971352C801FCD0004DFEF /* DGChartsDynamic */,
+			);
 			productName = "SRM SP";
 			productReference = 2A6B089A2C7EECA700228122 /* SRM SP.app */;
 			productType = "com.apple.product-type.application";
@@ -291,6 +256,9 @@
 				Base,
 			);
 			mainGroup = 2A6B08912C7EECA700228122;
+			packageReferences = (
+				03E971322C801CBC0004DFEF /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 2A6B089B2C7EECA700228122 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -330,23 +298,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3178A04C86A25C114E49CE1F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SRM SP/Pods-SRM SP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SRM SP/Pods-SRM SP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SRM SP/Pods-SRM SP-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3A89E350D84FAC5CF7940297 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,28 +314,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SRM SP-SRM SPUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		40D240BE45B37E548FF5FAED /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SRM SP-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -613,7 +542,6 @@
 		};
 		2A6B08C52C7EECAB00228122 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E72C73D8A786D763F1EA331A /* Pods-SRM SP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -644,7 +572,6 @@
 		};
 		2A6B08C62C7EECAB00228122 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 437F94FB1F31D98EB2BC8438 /* Pods-SRM SP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -675,7 +602,6 @@
 		};
 		2A6B08C82C7EECAB00228122 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF57D1CC3C920D5A7310565E /* Pods-SRM SPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -695,7 +621,6 @@
 		};
 		2A6B08C92C7EECAB00228122 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8936721FBECB0537026EE7A3 /* Pods-SRM SPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -715,7 +640,6 @@
 		};
 		2A6B08CB2C7EECAB00228122 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1F99533B8D92B97C8B75E78 /* Pods-SRM SP-SRM SPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -733,7 +657,6 @@
 		};
 		2A6B08CC2C7EECAB00228122 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D2730B46E0E80E7ED40CE32 /* Pods-SRM SP-SRM SPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -789,6 +712,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03E971322C801CBC0004DFEF /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03E971332C801FCD0004DFEF /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E971322C801CBC0004DFEF /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		03E971352C801FCD0004DFEF /* DGChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03E971322C801CBC0004DFEF /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGChartsDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A6B08922C7EECA700228122 /* Project object */;
 }
