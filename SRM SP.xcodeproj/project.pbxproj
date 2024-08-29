@@ -78,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03E9712D2C7FE7620004DFEF /* UserCases */ = {
+			isa = PBXGroup;
+			children = (
+				2ADD78C22C7FE04D0036B4FB /* LoginViewController.swift */,
+			);
+			path = UserCases;
+			sourceTree = "<group>";
+		};
 		2A6B08912C7EECA700228122 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +109,7 @@
 		2A6B089C2C7EECA700228122 /* SRM SP */ = {
 			isa = PBXGroup;
 			children = (
-				2ADD78C12C7FE0030036B4FB /* Controller */,
+				03E9712D2C7FE7620004DFEF /* UserCases */,
 				2A6B089D2C7EECA700228122 /* AppDelegate.swift */,
 				2A6B089F2C7EECA700228122 /* SceneDelegate.swift */,
 				2A6B08A12C7EECA700228122 /* ViewController.swift */,
@@ -128,14 +136,6 @@
 				2A6B08C02C7EECAB00228122 /* SRM_SPUITestsLaunchTests.swift */,
 			);
 			path = "SRM SPUITests";
-			sourceTree = "<group>";
-		};
-		2ADD78C12C7FE0030036B4FB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				2ADD78C22C7FE04D0036B4FB /* LoginViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +450,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMFC9Q5AK9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SRM SP/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
@@ -479,6 +480,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMFC9Q5AK9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SRM SP/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
